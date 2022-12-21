@@ -1,0 +1,31 @@
+//code for sum of two matrix in 2D
+#include<stdio.h>
+void main()
+{
+    int a[100][100],b[100][100],c,i,j,sum;
+    printf("enter the elemen of matrix a\n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            scanf("%d",&a[i][j]);
+        }
+    }
+    printf("enter the elemen of matrix b\n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            scanf("%d",&b[i][j]);
+        }
+    }
+ for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            sum=a[i][j]+b[i][j];
+            printf("%d",sum);
+         }
+   }
+   
+}
